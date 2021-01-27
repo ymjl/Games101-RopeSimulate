@@ -104,7 +104,7 @@ namespace CGL {
         
                 // TODO (Part 2): Add global damping
                 //添加摩擦力
-                float k_d = 0.02;
+                float k_d = 0.01;
                 m->forces += - k_d * m->velocity;
                 
                 //求解加速度
