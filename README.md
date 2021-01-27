@@ -12,3 +12,8 @@
 ## 正确结果--欧拉方法：
 
 ![avatar](images/euler_hide_rusult.gif)
+
+
+## 正确结果--非物理verlet方法：
+
+![avatar](images/verlet_rusult.gif)

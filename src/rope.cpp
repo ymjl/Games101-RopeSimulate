@@ -109,7 +109,13 @@ namespace CGL {
                 
                 //求解加速度
                 auto a = m->forces / m->mass;
+
+                //显式欧拉
                 //计算速度位置
+                //m->velocity += a * delta_t;
+                //m->position += m->velocity * delta_t;
+
+                //半隐式欧拉            
                 m->velocity += a * delta_t;
                 m->position += m->velocity * delta_t;
             }
@@ -123,18 +129,32 @@ namespace CGL {
     {
         for (auto &s : springs)
         {
-            // TODO (Part 3): Simulate one timestep of the rope using explicit Verlet （solving constraints)
+            //TODO (Part 2): Use Hooke's law to calculate the force on a node
+            auto b = s->m2->position;
+            auto a = s->m1->position;
+            auto ab = b - a;
+
+            //每个质点施加力
+            s->m1->forces += s->k * ab /ab.norm()*(ab.norm() - s->rest_length);
+            s->m2->forces -= s->k * ab /ab.norm()*(ab.norm() - s->rest_length);
         }
 
         for (auto &m : masses)
         {
             if (!m->pinned)
             {
-                Vector2D temp_position = m->position;
-                // TODO (Part 3.1): Set the new position of the rope mass
                 
+                m->forces += gravity * m->mass;
+                Vector2D a = m->forces / m->mass;
+
+                // TODO (Part 3.1): Set the new position of the rope mass
+                Vector2D lastposition = m->position;
                 // TODO (Part 4): Add global Verlet damping
+                float dampfactor = 0.00005;
+                m->position = m->position +  (1 - dampfactor) * (m->position - m->last_position) + a * delta_t *delta_t;
+                m->last_position = lastposition;
             }
+            m->forces =  Vector2D(0,0);
         }
     }
 }
