@@ -12,13 +12,11 @@ namespace CGL {
     {
         // TODO (Part 1): Create a rope starting at `start`, ending at `end`, and containing `num_nodes` nodes.
 
-//        Comment-in this part when you implement the constructor
+//        To Comment-in this part when you implement the constructor 
 //        for (auto &i : pinned_nodes) {
 //            masses[i]->pinned = true;
 //        }
-
-        
-        
+    
           for (int i = 0; i < num_nodes - 1; i++)
           {
               if (i == 0)
