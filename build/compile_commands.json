@@ -1,0 +1,162 @@
+[
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glew",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/song/文档/games101/assignment8/CGL/deps/glew/include  -g   -w -o CMakeFiles/glew.dir/src/glew.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glew/src/glew.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glew/src/glew.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glew",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/song/文档/games101/assignment8/CGL/deps/glew/include  -g   -w -o CMakeFiles/glew.dir/src/glewinfo.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glew/src/glewinfo.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glew/src/glewinfo.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glew",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/song/文档/games101/assignment8/CGL/deps/glew/include  -g   -w -o CMakeFiles/glew.dir/src/visualinfo.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glew/src/visualinfo.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glew/src/visualinfo.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/context.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/context.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/context.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/init.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/init.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/init.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/input.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/input.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/input.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/monitor.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/monitor.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/monitor.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/window.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/window.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/window.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/x11_init.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/x11_init.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/x11_init.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/x11_monitor.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/x11_monitor.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/x11_monitor.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/x11_window.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/x11_window.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/x11_window.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/xkb_unicode.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/xkb_unicode.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/xkb_unicode.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/linux_joystick.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/linux_joystick.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/linux_joystick.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/posix_time.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/posix_time.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/posix_time.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/posix_tls.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/posix_tls.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/posix_tls.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -D_GLFW_USE_CONFIG_H -I/home/song/文档/games101/assignment8/CGL/deps/glfw/src -I/home/song/文档/games101/assignment8/build/CGL/deps/glfw/src  -g -fPIC   -Wall -w -o CMakeFiles/glfw.dir/glx_context.c.o   -c /home/song/文档/games101/assignment8/CGL/deps/glfw/src/glx_context.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/deps/glfw/src/glx_context.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/vector2D.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/vector2D.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/vector2D.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/vector3D.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/vector3D.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/vector3D.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/vector4D.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/vector4D.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/vector4D.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/matrix3x3.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/matrix3x3.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/matrix3x3.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/matrix4x4.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/matrix4x4.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/matrix4x4.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/quaternion.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/quaternion.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/quaternion.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/complex.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/complex.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/complex.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/color.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/color.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/color.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/osdtext.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/osdtext.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/osdtext.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src  -g   -o CMakeFiles/CGL.dir/osdfont.c.o   -c /home/song/文档/games101/assignment8/CGL/src/osdfont.c",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/osdfont.c"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/viewer.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/viewer.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/viewer.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/base64.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/base64.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/base64.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/CGL/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/home/song/文档/games101/assignment8/CGL/deps/glew/include -I/usr/include/freetype2 -I/home/song/文档/games101/assignment8/CGL/src   -std=gnu++11 -m64 -O3 -fopenmp -std=gnu++0x -m64 -lXi -lXxf86vm -lXinerama -lXcursor -lXfixes -lXrandr -lXext -lXrender -lX11 -lpthread -lxcb -lXau -O3 -fopenmp -g   -o CMakeFiles/CGL.dir/tinyxml2.cpp.o -c /home/song/文档/games101/assignment8/CGL/src/tinyxml2.cpp",
+  "file": "/home/song/文档/games101/assignment8/CGL/src/tinyxml2.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/usr/include/freetype2   -std=gnu++11 -m64 -O3 -fopenmp -g   -o CMakeFiles/ropesim.dir/rope.cpp.o -c /home/song/文档/games101/assignment8/src/rope.cpp",
+  "file": "/home/song/文档/games101/assignment8/src/rope.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/usr/include/freetype2   -std=gnu++11 -m64 -O3 -fopenmp -g   -o CMakeFiles/ropesim.dir/application.cpp.o -c /home/song/文档/games101/assignment8/src/application.cpp",
+  "file": "/home/song/文档/games101/assignment8/src/application.cpp"
+},
+{
+  "directory": "/home/song/文档/games101/assignment8/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/song/文档/games101/assignment8/CGL/include -I/usr/include/freetype2   -std=gnu++11 -m64 -O3 -fopenmp -g   -o CMakeFiles/ropesim.dir/main.cpp.o -c /home/song/文档/games101/assignment8/src/main.cpp",
+  "file": "/home/song/文档/games101/assignment8/src/main.cpp"
+}
+]
