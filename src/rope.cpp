@@ -21,7 +21,7 @@ namespace CGL {
           {
               if (i == 0)
               {
-                  Mass* m1 = new Mass(start, node_mass, true);
+                  Mass* m1 = new Mass(start, node_mass, false);
                   masses.push_back(m1);
                   if (i + 1 < num_nodes-1)
                   {     
@@ -34,7 +34,7 @@ namespace CGL {
               else if (i == num_nodes - 2)
               {
                   Mass* m1= masses[i];
-                  Mass* m2 = new Mass(end, node_mass, true);
+                  Mass* m2 = new Mass(end, node_mass, false);
                   springs.push_back(new Spring(m1, m2, k));
               }
               else
@@ -48,7 +48,9 @@ namespace CGL {
 
           }
           
-
+       for (auto &i : pinned_nodes) {
+           masses[i]->pinned = true;
+       }
     }
 
     void Rope::simulateEuler(float delta_t, Vector2D gravity)
@@ -56,6 +58,10 @@ namespace CGL {
         for (auto &s : springs)
         {
             // TODO (Part 2): Use Hooke's law to calculate the force on a node
+            auto b = s->m2->position;
+            auto a = s->m1->position;
+            auto l = b - a;
+            s->m2->forces = (-1) * s->k * l /l.norm()*(l.norm() - s->rest_length);
         }
 
         for (auto &m : masses)
